@@ -1,5 +1,5 @@
 # Your Code Her
-def lit(array)
+def map(array)
   arrays = []
   v = 0
   while v < array.length
@@ -9,7 +9,7 @@ def lit(array)
   arrays
 end
 
-def subs(array,starting_value=nil)
+def reduce(array,starting_value=nil)
   if starting_value
     sum = starting_value
     i = 0
